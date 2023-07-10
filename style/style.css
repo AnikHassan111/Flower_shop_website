@@ -12,11 +12,11 @@ body {
 .website_width {
     width: 80%;
     margin: auto;
-    margin-bottom: 128px;
+    margin-bottom: 115px;
 }
 
 .pramiry_btn {
-    padding: 20px 43px;
+    padding: 17px 42px;
     background-color: #E55473;
     border-radius: 8px;
     border: 0;
@@ -72,10 +72,12 @@ body {
     margin-top: 24px;
     margin-bottom: 48px;
 }
-.feature_section_flower_container{
+
+.feature_section_flower_container {
     display: flex;
     gap: 24px;
 }
+
 /* Flower box 1 */
 
 .flower_box1 img {
@@ -83,32 +85,92 @@ body {
     background-color: rgba(167, 33, 98, 0.15);
     border-radius: 300px 300px 0px 0px;
 }
+
 .flower_box1 p a {
     color: #272727;
     font-size: 24px;
     font-weight: 700;
 }
+
 /* Flower box 2 */
 
 .flower_box2 img {
     padding: 117px 47px 51px 47px;
-    background-color:rgba(5, 151, 160, 0.15);
+    background-color: rgba(5, 151, 160, 0.15);
     border-radius: 300px 300px 0px 0px;
 }
+
 .flower_box2 p a {
     color: #272727;
     font-size: 24px;
     font-weight: 700;
 }
+
 /* Flower box 3 */
 
 .flower_box3 img {
     padding: 67px 75px 0px 75px;
-    background-color:rgba(71, 125, 17, 0.15);
+    background-color: rgba(71, 125, 17, 0.15);
     border-radius: 300px 300px 0px 0px;
 }
+
 .flower_box3 p a {
     color: #272727;
     font-size: 24px;
     font-weight: 700;
+}
+
+
+/* Support section */
+.support_section {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    background-color: rgba(39, 39, 39, 0.05);
+    border-radius: 8px;
+    padding: 86px 175px;
+}
+
+.support_section .support_box {
+    text-align: center;
+}
+
+.support_section .support_box p {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+
+/* Hot Deal section */
+
+
+.hot_deal_section_background {
+    background-color: rgba(229, 84, 115, 0.05);
+}
+
+.hot_deal_section {
+    padding: 85px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 186px;
+    align-items: center;
+}
+
+.hot_deal_content_section {
+    text-align: center;
+}
+
+.hot_deal_content_section h1 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.hot_deal_content_section p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 24px 0px 32px 0px;
 }
