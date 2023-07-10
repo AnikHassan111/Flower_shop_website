@@ -16,7 +16,7 @@ body {
 }
 
 .pramiry_btn {
-    padding: 17px 42px;
+    padding: 18px 42px;
     background-color: #E55473;
     border-radius: 8px;
     border: 0;
@@ -60,7 +60,7 @@ body {
     text-align: center;
 }
 
-.our_feature_section h1 {
+.our_feature_section h2 {
     color: #272727;
     font-size: 40px;
     font-weight: 800;
@@ -162,7 +162,7 @@ body {
     text-align: center;
 }
 
-.hot_deal_content_section h1 {
+.hot_deal_content_section h2 {
     color: #272727;
     font-size: 40px;
     font-weight: 800;
@@ -173,4 +173,102 @@ body {
     font-size: 18px;
     font-weight: 400;
     margin: 24px 0px 32px 0px;
+}
+
+
+/* Instagram section */
+
+
+.instagram_section {
+    text-align: center;
+}
+
+.instagram_section h2 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.instagram_section p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 24px 0px 48px 0px;
+}
+
+.instagram_section_image {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Latest Deal Section */
+
+.latest_deal_section {
+    text-align: center;
+    background-image: url("../image/Rectangle\ 9.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 122px 0px;
+    border-radius: 8px;
+}
+
+.latest_deal_section h2 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.latest_deal_section p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 16px 0px 48px 0px;
+}
+
+.latest_deal_section>input {
+    width: 700px;
+    padding: 22px;
+    border: none;
+    /* outline: none; */
+    border-radius: 8px;
+    margin-right: 16px;
+}
+
+
+
+/* Footer Section */
+
+footer {
+    background-color: #111010;
+}
+
+.footer_section {
+    text-align: center;
+    padding: 80px 0px;
+}
+
+.footer_section h2 {
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer_section h2 span {
+    color: #E55473 !important;
+}
+
+.footer_section > p {
+    color: rgba(255, 255, 255, 0.90);
+    padding: 24px 0px 5px 0px;
+    line-height: 30px;
+}
+
+.footer_section .last_p {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+}
+footer .website_width{
+    margin-bottom: 0px;
 }
