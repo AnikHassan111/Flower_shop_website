@@ -10,7 +10,7 @@ body {
 }
 
 .website_width {
-    width: 80%;
+    width: 90%;
     margin: auto;
     margin-bottom: 115px;
 }
@@ -34,7 +34,7 @@ body {
 .banner_section {
     padding-top: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -76,6 +76,7 @@ body {
 .feature_section_flower_container {
     display: flex;
     gap: 24px;
+    justify-content: center;
 }
 
 /* Flower box 1 */
@@ -214,7 +215,6 @@ body {
 .instagram_section {
     text-align: center;
 }
-
 .instagram_section h2 {
     color: #272727;
     font-size: 40px;
@@ -230,7 +230,8 @@ body {
 
 .instagram_section_image {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    gap: 10px;
 }
 
 
