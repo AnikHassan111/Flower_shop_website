@@ -194,7 +194,7 @@ body {
 .flower_info_box {
     display: flex;
     justify-content: center;
-    gap: 200px;
+    gap: 199px;
 }
 .flower_info_box h2{
     color: white;
